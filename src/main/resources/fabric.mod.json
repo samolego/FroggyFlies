@@ -1,38 +1,41 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "froggy_flies",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Froggy Flies",
+  "description": "Fireflies particles around frogs!",
   "authors": [
-    "Me!"
+    "samo_leog"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/samolego/FroggyFlies"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "LGPL-3.0",
+  "icon": "assets/froggy_flies/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "org.samo_lego.froggy_flies.FroggyFlies"
+    ],
+    "client": [
+      "org.samo_lego.froggy_flies.client.FroggyFliesClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "froggy_flies.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": "~1.18.2",
+
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
+    "minecraft": ">=${minecraft_version}"
   }
 }
