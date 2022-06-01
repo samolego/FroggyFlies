@@ -1,9 +1,20 @@
-# Fabric Example Mod
+# Froggy Flies
+Firefly particles around frogs!
+Works serverside or clientside!
 
-## Setup
+Frogs will even try to eat them occasionally.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+**NOTE**: *Do not feed frogs with fireflies IRL. This is just a game.*
 
-## License
+## If installed serverside
+* vanilla `ash` & `white_ash` particles are used
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+
+https://user-images.githubusercontent.com/34912839/171381756-62885754-3686-4c3a-96cf-89efab1fb847.mp4
+
+
+
+## If installed clientside
+
+https://user-images.githubusercontent.com/34912839/171381679-25923ef0-0aa3-4b72-98cf-25419e436505.mp4
+
