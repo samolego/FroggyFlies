@@ -1,10 +1,14 @@
-# Froggy Flies
+<img width="200" src="https://github.com/samolego/FroggyFlies/blob/1.19/src/main/resources/assets/froggy_flies/icon.png" alt="Icon" align="right">
+<div align="left">
+  <h1>Froggy Flies</h1>
+  
 Firefly particles around frogs!
 Works serverside or clientside!
 
 Frogs will even try to eat them occasionally.
 
 **NOTE**: *Do not feed frogs with fireflies IRL. This is just a game.*
+</div>
 
 ## If installed serverside
 * vanilla `ash` & `white_ash` particles are used
